@@ -2,15 +2,15 @@
 
 ## 64-bit arm ubuntu
 
-See [this wiki for details](https://wiki.ubuntu.com/ARM/RaspberryPi)
+See [this wiki for details](https://wiki.ubuntu.com/ARM/RaspberryPi) 
 
 ### bootable image
 
-Download the [20.04 arm64 image](http://cdimage.ubuntu.com/releases/focal/release/ubuntu-20.04-preinstalled-server-arm64+raspi.img.xz) and save to an SD card.  [etcher works well for this](https://www.balena.io/etcher/?ref=etcher_menu)
+Download the [focal arm64 image](https://cdimage.ubuntu.com/ubuntu-server/focal/daily-preinstalled/current/focal-preinstalled-server-arm64+raspi.img.xz) and save to an SD card. [etcher works well for this](https://www.balena.io/etcher)
 
 ### manual setup
 
-After flashing the image, re-mount the drive and copy the following files into `<drive>/system-boot/`:
+After flashing the image, re-mount the drive and copy the following files into `<drive>/sys tem-boot/`:
 
 * `user-data`
 * `network-config`
